@@ -1,0 +1,207 @@
+#body {
+	font-family: arial, helvetica, sans-serif;
+	color: Black;
+	font-size: 10pt;
+}
+
+#container {
+	display: grid;
+	grid-template-columns: 300px auto;
+	grid-template-rows: 45px 250px 30px 30px 300px 200px;
+	grid-gap: 0px 15px;
+	margin: 0px 40px;
+	/*border: 1px solid;*/
+}
+
+#displayimage {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-color: ;
+	overflow: hidden;
+	display: flex;
+	align-items: center; /*vertical*/
+	justify-content: center; /*horizontal*/
+	/*border: 1px solid;*/
+}
+
+#displayimage img {
+	width: 100%;
+	height: auto;
+}
+
+#name {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	height: 100%;
+	width: 100%;
+	background-color: gainsboro;
+	display: flex;
+	align-items: center; /*vertical*/
+	justify-content: center; /*horizontal*/
+	/*border: 1px solid;*/
+}
+
+#name h1 {
+	text-align: center;
+	margin: auto;
+	margin-top: 5px;
+}
+
+#occupation {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	height: 100%;
+	width: 100%;
+	background-color: gainsboro;
+	display: flex;
+	align-items: center; /*vertical*/
+	justify-content: center; /*horizontal*/
+	/*border: 1px solid;*/
+}
+
+#occupation p {
+	text-align: center;
+	margin: auto;
+}
+
+#contact {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 5;
+	grid-row-end: 8;
+	height: 100%;
+	width: 100%;
+	background-color: gainsboro;
+	overflow: hidden;
+	display: flex;
+	text-align: center;
+	justify-content: center; /*horizontal*/
+	/*border: 1px solid;*/
+}
+
+#contact dl {
+	list-style-type:none;
+	padding: 0;
+	text-align: centre;
+}
+
+#contact dt {
+	font-weight: bold;
+	font-size: 11pt;
+	margin-top: 10px;
+	text-align: centre;
+}
+
+#contact dd {
+	margin-left: 0px;	
+	margin-top: 5px;
+	font-size: 9pt;	
+	text-align: centre;
+}
+
+#contact dl a {
+	color: black;
+	text-decoration: underline;
+}
+
+#contact dl a:hover {
+	color: gray;
+}
+
+#nav {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background-color: gainsboro;
+	display: flex;
+	align-items: center; /*vertical*/
+	justify-content: left; /*horizontal*/
+	padding: 5px 5px 5px 10px;
+	/*border: 1px solid;*/
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	color: Black;
+	text-decoration: none;
+	margin-right: 15px;
+	font-size: 9pt;
+}
+
+#nav li a:hover {
+	color: gray;
+}
+
+#aboutme{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 5;
+	background-color: ;
+	padding: 5px;
+	overflow: auto;
+	/*border: 1px solid;*/
+}
+
+#aboutme h2 {
+	margin: 0;
+}
+
+#education {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	padding: 31px 5px 5px 5px;
+	/*border: 1px solid;*/
+}
+
+#education h2 {
+	margin: 0;
+}
+
+
+#education h3, p{
+	margin: 5px 0;
+}
+
+#education dl {
+	list-style-type:none;
+	padding: 0;
+}
+
+#education dt {
+	font-style: italic;
+	font-size: 11pt;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+#education dd {
+	Margin-left: 15px;
+	font-weight: lighter;
+}
+
+#skills {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	padding: 5px;
+	/*border: 1px solid;*/
+}
